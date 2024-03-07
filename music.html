@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>music player</title>
+
+    <link rel="stylesheet" href="stylemusic.css">
+
+    <script src="https://kit.fontawesome.com/d5d2e03e30.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+     <div class="container">
+        <div class="okellomax">
+           <nav>
+            
+            <div class="okello">
+                <i class="fa-solid fa-angle-left"></i>
+            </div>
+
+            <div class="okello">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+           </nav>
+           <img src="okello max.jpg" alt="" class="okelloimage" height="200" width="200" >
+           <h1>SEMBO</h1>
+           <p>Okello Max, Coster Ojwan'g</p>
+
+           <audio controls id="song">
+            <source src="WhatsApp Audio 2024-03-07 at 08.25.32_faecab08.dat" type="audio/mpeg">
+           </audio>
+
+           <input type="range" value="0"  id="input">
+
+           <div class="controls">
+        
+            <div><i class="fa-solid fa-backward"></i></div>
+            <div  onclick="playPause()"><i class="fa-solid fa-play"  id="ctrlicon"></i></div>
+            <div><i class="fa-solid fa-forward"></i></div>
+           </div>
+        </div>
+     </div>
+    
+
+     <script src="music.js"></script>
+</body>
+</html>
