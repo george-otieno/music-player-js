@@ -14,6 +14,7 @@
     justify-content: center;
     flex-wrap: wrap;
     display: flex;
+
 }
 
 
@@ -22,6 +23,7 @@
     width: 400px;
     padding: 25px 35px;
     text-align: center;
+
 }
 
 
@@ -42,8 +44,8 @@ nav .okello{
 }
 
 .okelloimage{
-    height: 200;
-    width: 200;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
     border: 8px  solid #fff;
     box-shadow: 0 10px 60px rgba(225, 26, 26, 0.22);
